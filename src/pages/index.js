@@ -1,8 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
-import SEO from "../components/seo"
+
 import logo from "../images/Supsolution_Logo.png"
-import initial_logo_css from "../components/initial-logo.css"
+
 import circle1 from "../images/Circle1.png"
 
 const activeStyles = {

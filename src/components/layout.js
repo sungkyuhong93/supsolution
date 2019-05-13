@@ -8,10 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
-
 import "bootstrap/dist/css/bootstrap.min.css"
-import $ from "jquery"
-import Popper from "popper.js"
 import "bootstrap/dist/js/bootstrap.bundle.min"
 
 import Header from "./header"

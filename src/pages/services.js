@@ -17,7 +17,11 @@ const Services = () => (
     <div className="services-row">
       <div class="services-col">
         <div className="services-col-title">
-          <img className="services-col-img" src={BrandDesign} />
+          <img
+            className="services-col-img"
+            src={BrandDesign}
+            alt="brand-design"
+          />
         </div>
         <div className="services-col-desc">
           <p>
@@ -29,7 +33,11 @@ const Services = () => (
       </div>
       <div class="services-col">
         <div className="services-col-title">
-          <img className="services-col-img" src={ArtDirection} />
+          <img
+            className="services-col-img"
+            src={ArtDirection}
+            alt="art-direction"
+          />
           <div className="services-col-desc">
             <p>
               We value the importance of keeping a holistic view on a brand. Art
@@ -41,7 +49,7 @@ const Services = () => (
       </div>
       <div class="services-col">
         <div className="services-col-title">
-          <img className="services-col-img" src={BrandDev} />
+          <img className="services-col-img" src={BrandDev} alt="brand-dev" />
           <div className="services-col-desc">
             <p>
               We do an analysis on your current brand and help strengthen its
@@ -53,7 +61,11 @@ const Services = () => (
       </div>
       <div class="services-col">
         <div className="services-col-title">
-          <img className="services-col-img" src={CreativeConsulting} />
+          <img
+            className="services-col-img"
+            src={CreativeConsulting}
+            alt="creative-consulting"
+          />
           <div className="services-col-desc">
             <p>
               There are a range of creative outlets, and we specialize in small
@@ -65,7 +77,11 @@ const Services = () => (
       </div>
       <div class="services-col">
         <div className="services-col-title">
-          <img className="services-col-img" src={MarketingStrategy} />
+          <img
+            className="services-col-img"
+            src={MarketingStrategy}
+            alt="marketing-strategy"
+          />
           <div className="services-col-desc">
             <p>
               Alongside social media marketing, we find the best way for a
@@ -77,7 +93,11 @@ const Services = () => (
       </div>
       <div class="services-col">
         <div className="services-col-title">
-          <img className="services-col-img" src={ContentCreation} />
+          <img
+            className="services-col-img"
+            src={ContentCreation}
+            alt="content-creation"
+          />
           <div className="services-col-desc">
             <p>
               Through multiple streams of media, we create different content
@@ -89,7 +109,11 @@ const Services = () => (
       </div>
       <div class="services-col">
         <div className="services-col-title">
-          <img className="services-col-img" src={Investments} />
+          <img
+            className="services-col-img"
+            src={Investments}
+            alt="investments"
+          />
           <div className="services-col-desc">
             <p>
               We help businesses expand into other areas, or help individuals
@@ -100,7 +124,7 @@ const Services = () => (
       </div>
       <div class="services-col">
         <div className="services-col-title">
-          <img className="services-col-img" src={Education} />
+          <img className="services-col-img" src={Education} alt="education" />
           <div className="services-col-desc">
             <p>
               We look for opportunities to train and develop the organizational
@@ -111,7 +135,7 @@ const Services = () => (
       </div>
       <div class="services-col">
         <div className="services-col-title">
-          <img className="services-col-img" src={Events} />
+          <img className="services-col-img" src={Events} alt="events" />
           <div className="services-col-desc">
             <p>
               We create interactive experiences, from installations to full

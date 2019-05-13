@@ -20,7 +20,7 @@ const Contact = () => (
       <div className="contact-row">
         <div className="contact-col">
           <p className="contact-col-title" id="ny">
-            <img className="contact-number-img" src={one} />
+            <img className="contact-number-img" src={one} alt="one" />
             New York City
           </p>
           <p className="contact-col-phone">
@@ -32,7 +32,7 @@ const Contact = () => (
 
         <div className="contact-col" id="seoul-col">
           <p className="contact-col-title" id="seoul">
-            <img className="contact-number-img" src={two} />
+            <img className="contact-number-img" src={two} alt="two" />
             Seoul
           </p>
           <p className="contact-col-phone">
@@ -45,7 +45,7 @@ const Contact = () => (
 
       <div className="contact-email">
         <p className="contact-info">
-          Contact - <img className="contact-info-img" src={info} />
+          Contact - <img className="contact-info-img" src={info} alt="three" />
         </p>
       </div>
     </div>

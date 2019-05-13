@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import initial_logo_css from "../components/initial-logo.css"
 import circle1 from "../images/Circle1.png"
-import { Navbar, Nav, Button, FormControl } from "react-bootstrap"
+import { Navbar, Nav } from "react-bootstrap"
 
 const activeStyles = {
   backgroundImage: `url(${circle1})`,
